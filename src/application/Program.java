@@ -7,7 +7,7 @@ import java.sql.Connection;
 public class Program {
     public static void main(String[] args) {
 
-        // exemple
+        // exemple 
         Connection con = DB.getConnection();
         DB.closeConnection();
     }
